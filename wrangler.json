@@ -1,5 +1,7 @@
 {
-  "name": "life-insurance-calculator",
-  "pages_build_output_dir": "dist",
-  "compatibility_date": "2025-01-18"
+  "name": "income-protection-calculator",
+  "compatibility_date": "2024-09-23",
+  "assets": {
+    "directory": "./dist"
+  }
 }
