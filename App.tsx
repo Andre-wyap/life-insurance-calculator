@@ -1,9 +1,9 @@
 import React, { useState, useMemo, useCallback } from 'react';
 import { CalculatorState, CalculationResult } from './types';
 import { ASSET_LIQUIDATION_FEE_PERCENTAGE, CURRENCY_FORMAT } from './constants';
-import CalculatorParams from './CalculatorParams';
-import ResultsPanel from './ResultsPanel';
-import LeadFormModal from './LeadFormModal';
+import CalculatorParams from './components/CalculatorParams';
+import ResultsPanel from './components/ResultsPanel';
+import LeadFormModal from './components/LeadFormModal';
 import { Calculator } from 'lucide-react';
 
 const INITIAL_STATE: CalculatorState = {
